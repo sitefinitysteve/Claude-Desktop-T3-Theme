@@ -1,0 +1,4 @@
+claude-desktop.json
+.gitignore
+.git/**
+*.vsix

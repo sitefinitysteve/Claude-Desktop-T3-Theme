@@ -1,0 +1,114 @@
+{
+  "name": "Claude Desktop T3 Dark",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#191919",
+    "editorPane.background": "#191919",
+    "editor.foreground": "#EFEFEF",
+    "foreground": "#EFEFEF",
+    "descriptionForeground": "#9C9C9C",
+    "disabledForeground": "#9C9C9C",
+    "editorWidget.background": "#262626",
+    "dropdown.background": "#262626",
+    "menu.background": "#262626",
+    "quickInput.background": "#262626",
+    "panel.background": "#191919",
+    "panel.border": "#3B3B3B",
+    "editorGroup.border": "#3B3B3B",
+    "input.background": "#303030",
+    "input.border": "#303030",
+    "input.placeholderForeground": "#838383",
+    "focusBorder": "#407BD9",
+    "button.background": "#407BD9",
+    "button.foreground": "#FFFFFF",
+    "button.hoverBackground": "#3568BD",
+    "textLink.foreground": "#79A9EB",
+    "badge.background": "#407BD9",
+    "activityBarBadge.background": "#407BD9",
+    "progressBar.background": "#407BD9",
+    "editorError.foreground": "#EB445B",
+    "errorForeground": "#EB445B",
+    "editorWarning.foreground": "#E0A458",
+    "list.activeSelectionBackground": "#464646",
+    "list.inactiveSelectionBackground": "#464646",
+    "list.hoverBackground": "#303030",
+    "textCodeBlock.background": "#2A2A2A",
+    "editor.findMatchBackground": "#407BD9",
+    "editor.findMatchForeground": "#FFFFFF",
+    "editor.findMatchHighlightBackground": "#2C3E5C",
+    "editor.findMatchHighlightForeground": "#FFFFFF",
+    "editor.selectionBackground": "#2C3E5C",
+    "editorCursor.foreground": "#EFEFEF",
+    "sideBar.background": "#262626",
+    "sideBar.foreground": "#F0F0F0",
+    "sideBar.border": "#303030",
+    "activityBar.background": "#262626",
+    "titleBar.activeBackground": "#191919",
+    "titleBar.activeForeground": "#EFEFEF",
+    "statusBar.background": "#262626",
+    "tab.activeBackground": "#191919",
+    "tab.inactiveBackground": "#262626",
+    "terminal.background": "#191919",
+    "terminal.foreground": "#EFEFEF",
+    "terminalCursor.foreground": "#EFEFEF",
+    "terminal.selectionBackground": "#2C3E5C",
+    "scrollbarSlider.background": "#7F7F7F59"
+  },
+  "tokenColors": [
+    {
+      "scope": [
+        "comment"
+      ],
+      "settings": {
+        "foreground": "#7A7A7A",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": [
+        "keyword",
+        "storage",
+        "keyword.control"
+      ],
+      "settings": {
+        "foreground": "#CC7C5E"
+      }
+    },
+    {
+      "scope": [
+        "string"
+      ],
+      "settings": {
+        "foreground": "#9FC28A"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.function",
+        "support.function"
+      ],
+      "settings": {
+        "foreground": "#79A9EB"
+      }
+    },
+    {
+      "scope": [
+        "constant.numeric",
+        "constant.language"
+      ],
+      "settings": {
+        "foreground": "#E0A458"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.type",
+        "support.type",
+        "entity.name.class"
+      ],
+      "settings": {
+        "foreground": "#D9A6E0"
+      }
+    }
+  ]
+}
