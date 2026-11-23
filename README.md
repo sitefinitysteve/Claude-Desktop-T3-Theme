@@ -4,6 +4,13 @@
 
 A [T3 Code](https://github.com/pingdotgg/t3code) theme that matches the dark mode of the Claude desktop app.
 
+> [!IMPORTANT]
+> **There are two versions, and only one has the full look.**
+> - **Import `claude-desktop.json`** (Option 2 below) for the full theme: the colors **plus** custom CSS (model-colored send button, Claude-style composer, menus, dialogs, settings).
+> - **Search "Claude Desktop T3" in T3 Code** (Option 1) for **colors only**.
+>
+> Why: T3 Code's search installs themes from Open VSX, which hosts VS Code extensions. VS Code color themes can only hold colors, and T3 Code's importer reads just a fixed list of those colors from the package. Anything else, including CSS, is ignored, so the search version can't carry the CSS.
+
 ## Install
 
 ### Option 1: Search in T3 Code
@@ -12,7 +19,7 @@ A [T3 Code](https://github.com/pingdotgg/t3code) theme that matches the dark mod
 2. Search for **Claude Desktop T3**.
 3. Click **Install**.
 
-This installs the dark colors only. T3 Code doesn't load custom CSS from Open VSX themes.
+This installs the dark colors only, without the custom CSS (see the note above).
 
 ### Option 2: Import the full theme (recommended)
 
