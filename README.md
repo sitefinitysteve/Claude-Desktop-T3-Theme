@@ -67,6 +67,10 @@ The same package also works as a regular VS Code color theme in VSCodium, Cursor
 
 ## Building the Open VSX package
 
+Releases publish automatically: bump `version` in `package.json`, commit, then push a matching tag (`git tag v1.0.2 && git push --tags`). The [publish workflow](.github/workflows/publish.yml) uses Open VSX trusted publishing, so no token is stored.
+
+To build and publish by hand instead:
+
 ```sh
 npx @vscode/vsce package
 npx ovsx publish claude-desktop-t3-<version>.vsix -p <token>
