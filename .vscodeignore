@@ -1,5 +1,6 @@
 claude-desktop.json
 images/icon.svg
+images/composer-*.png
 .gitignore
 .git/**
 *.vsix

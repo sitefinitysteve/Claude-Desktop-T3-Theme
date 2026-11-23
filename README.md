@@ -18,6 +18,30 @@ This installs the dark colors only. T3 Code doesn't load custom CSS from Open VS
 
 This version includes the custom CSS: the Claude-style composer, send buttons colored by model (Claude orange, Gemini blue), and restyled menus, dialogs, settings, switches and tooltips.
 
+### Send button colored by model
+
+The composer's send button changes color to match the selected model's provider:
+
+| Model | Send button |
+| --- | --- |
+| Claude | Claude orange |
+| Gemini | Gemini blue |
+| Anything else | Neutral white |
+
+**Claude**
+
+![Composer with a Claude model selected: orange send button](images/composer-claude.png)
+
+**Gemini**
+
+![Composer with a Gemini model selected: blue send button](images/composer-gemini.png)
+
+**Other models**
+
+![Composer with another model selected: white send button](images/composer-default.png)
+
+This is part of the custom CSS, so it only works with the imported `claude-desktop.json`, not the Open VSX version.
+
 The file also has a light variant. It hasn't been checked against the Claude app's light mode, so treat it as a bonus rather than a match.
 
 1. Download [`claude-desktop.json`](./claude-desktop.json).
