@@ -41,6 +41,41 @@ The composer's send button changes color to match the selected model's provider:
 
 ![Composer with another model selected: white send button](images/composer-default.png)
 
+## Design approach
+
+The theme follows Claude Desktop's flat, minimal style. T3 Code's default theme takes a more layered approach with translucent panels, cards and accent colors; this one goes the other way and keeps styling to the elements that carry meaning. It follows a few rules:
+
+**A short grey scale.** Every surface comes from a small ladder of greys, each a step apart:
+
+| Grey | Used for |
+| --- | --- |
+| `#191919` | Canvas |
+| `#1F1F1F` | Panels |
+| `#262626` | Sidebar |
+| `#2A2A2A` | Input fields |
+| `#303030` | Message box |
+| `#3B3B3B` | Selected items |
+| `#404040` | Buttons |
+
+Anything raised or interactive is one shade lighter, so structure reads without extra borders or shadows.
+
+**Each color has one job.**
+
+- **Blue** means on or focused: toggles, sliders, checkboxes and the focus ring.
+- **Brand color** means which model you're using: the Claude asterisk, Gemini blue and the send button.
+- **Red and green** mean removed and added in diffs. Red also marks destructive buttons.
+- **Everything else is grey**, so when color shows up, it tells you something.
+
+**Flat layout.** Settings, panels and the composer sit directly on the page, separated by thin dividers instead of framed cards.
+
+**Contrast sets priority.** The main action in a dialog is light grey with dark text, the brightest thing on screen. Secondary buttons are mid grey and destructive ones are muted red.
+
+**Inputs are easy to spot.** Every field is the same borderless box, one shade lighter than its background.
+
+**Consistent proportions.** Corners use one scale: 8px for controls, 10px for panels, 12px for dialogs and the message box. Text sizes follow Claude Desktop's ratios (headings about 1.1× row titles, descriptions about 0.95×), and settings headings use medium weight instead of bold.
+
+**Your work comes first.** Messages, code and diffs get the strongest text color and the most room. The interface around them stays quieter and lower contrast.
+
 ## Colors-only version (T3 Code search / Open VSX)
 
 The theme is also listed in T3 Code's theme search: **Settings → Appearance → Add a theme**, search **Claude Desktop T3**.
