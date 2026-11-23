@@ -1,4 +1,5 @@
 claude-desktop.json
+images/icon.svg
 .gitignore
 .git/**
 *.vsix

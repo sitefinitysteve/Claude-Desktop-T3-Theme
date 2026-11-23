@@ -1,3 +1,5 @@
+<p align="center"><img src="images/icon.png" width="128" alt="Claude Desktop T3 icon"></p>
+
 # Claude Desktop T3
 
 A [T3 Code](https://github.com/pingdotgg/t3code) theme that matches the Claude desktop app, in dark and light.

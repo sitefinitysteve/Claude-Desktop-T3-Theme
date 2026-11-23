@@ -46,5 +46,10 @@
   },
   "bugs": {
     "url": "https://github.com/sitefinitysteve/Claude-Desktop-T3-Theme/issues"
+  },
+  "icon": "images/icon.png",
+  "galleryBanner": {
+    "color": "#191919",
+    "theme": "dark"
   }
 }
