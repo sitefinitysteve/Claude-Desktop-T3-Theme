@@ -1,7 +1,7 @@
 {
   "name": "claude-desktop-t3",
   "displayName": "Claude Desktop T3",
-  "description": "Claude desktop app look for T3 Code, dark and light. Works in VS Code too.",
+  "description": "Dark theme matching the Claude desktop app, for T3 Code. Works in VS Code too.",
   "version": "1.0.0",
   "publisher": "sitefinitysteve",
   "license": "MIT",
@@ -18,20 +18,14 @@
     "t3code",
     "t3 code",
     "dark",
-    "light",
     "theme"
   ],
   "contributes": {
     "themes": [
       {
-        "label": "Claude Desktop T3 Dark",
+        "label": "Claude Desktop T3",
         "uiTheme": "vs-dark",
         "path": "./themes/claude-desktop-dark.json"
-      },
-      {
-        "label": "Claude Desktop T3 Light",
-        "uiTheme": "vs",
-        "path": "./themes/claude-desktop-light.json"
       }
     ]
   },
